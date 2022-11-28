@@ -98,5 +98,20 @@ public class Main {
                 System.out.println("Ребёнок может кататься на аттракционах без сопровождении взврослого");
             }
         }
+
+        // Задание 3
+        System.out.println("Задание 3");
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three){
+            System.out.println(one);
+        } else {
+            if (two > one && two > three){
+                System.out.println(two);
+            } else {
+                System.out.println(three);
+            }
+        }
     }
 }
