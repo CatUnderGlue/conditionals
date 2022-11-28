@@ -57,5 +57,17 @@ public class Main {
                 System.out.println("Вы явно ходите в школу.");
             }
         }
+
+        // Задание 3
+        System.out.println("Задание 3");
+        if (peopleInTrain == totalCapacity){
+            System.out.println("Вагон полностью забит");
+        } else {
+            if (peopleInTrain >= 60 && peopleInTrain <= 101) {
+                System.out.println("Остались только стоячие места");
+            } else {
+                System.out.println("Имеются как стоячие, так и сидячие места");
+            }
+        }
     }
 }
